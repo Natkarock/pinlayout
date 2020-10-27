@@ -83,6 +83,7 @@ class PinLayout : LinearLayout {
 
     val pin get() = pinItems.fold("") { acc, pinItem -> acc + pinItem.text.toString() }
 
+
     var onFullListener: ((isFull: Boolean) -> Unit)? = null
 
 

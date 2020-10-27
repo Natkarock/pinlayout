@@ -7,11 +7,12 @@
     tools:context=".MainActivity">
 
     <com.mobile.finiza.app.ui.view.pinView.PinLayout
+        android:id="@+id/pinLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="24dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,6 +21,34 @@
         app:pin_select_background="@drawable/pin_select_underline"
         app:pin_unselect_background="@drawable/pin_unselect_underline"
         app:pin_unselect_empty_background="@drawable/pin_unselect_underline">
+
+    </com.mobile.finiza.app.ui.view.pinView.PinLayout>
+
+    <com.mobile.finiza.app.ui.view.pinView.PinLayout
+        android:id="@+id/pinLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pinLayout"
+        app:pin_select_background="@drawable/pin_select_full"
+        app:pin_unselect_background="@drawable/pin_unselect_full"
+        app:pin_unselect_empty_background="@drawable/pin_unselect_full_border">
+
+    </com.mobile.finiza.app.ui.view.pinView.PinLayout>
+
+    <com.mobile.finiza.app.ui.view.pinView.PinLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pinLayout2">
 
     </com.mobile.finiza.app.ui.view.pinView.PinLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
