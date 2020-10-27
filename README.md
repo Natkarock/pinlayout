@@ -1,5 +1,5 @@
 
-### Customize Pin Layout  
+### Customize Pin Code Layout  
 
 You can customize pin layout by adding custom drawables in **res** folder of your project  
 
