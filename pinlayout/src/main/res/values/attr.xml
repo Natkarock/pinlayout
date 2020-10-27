@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PinLayout">
+        <attr name="pin_unselect_background" format="integer"/>
+        <attr name="pin_unselect_empty_background" format="integer"/>
+        <attr name="pin_select_background" format="integer"/>
+        <attr name="pin_count" format="integer"/>
+        <attr name="pin_margin" format="dimension"/>
+        <attr name="pin_font" format="string"/>
+        <attr name="pin_mode" format="enum">
+            <enum name="full" value="0"/>
+            <enum name="border" value="1"/>
+            <enum name="custom" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
