@@ -24,10 +24,10 @@ You can customize pin layout by adding custom drawables in **res** folder of you
 
 ### Custom methods and properies
 
-| Name                      | Description                                       |
-|----------------------------------|:------------------------------------------------ :|    
-| ** onFullListener **             | Property. Callback, when pin layout full or not full          
-| ** pin **                        | Property. String value of current pin
-| ** clear **                      | Method, clear pin layout
-| ** isFull **                     | Property.           
+| Name                             | Description                                       |
+| ----------------------------------|:------------------------------------------------:|    
+| **onFullListener**             | Property. Callback, when pin layout full or not full|          
+| **pin**                        | Property. String value of current pin               | 
+| **clear**                      | Method, clear pin layout                            |
+| **isFull**                     | Property.                                           |
   
